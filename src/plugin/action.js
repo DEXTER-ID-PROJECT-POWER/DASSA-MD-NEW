@@ -35,7 +35,7 @@ async function handleCommand(m, gss) {
 
     try {
         // Load image replies from GitHub
-        const response = await axios.get('https://raw.githubusercontent.com/DEXTER-OFFICIAL/PROJECT-JSON/refs/heads/main/dexter-img-reply.js');
+        const response = await axios.get('https://raw.githubusercontent.com/DEXTER-OFFICIAL/PROJECT-JSON/refs/heads/main/dexter-img-reply.json');
         const imageReplies = response.data;
 
         // Check for matching keywords
